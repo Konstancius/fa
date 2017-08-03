@@ -1,0 +1,28 @@
+{
+  "name": "Konstancius/fa",
+  "type": "phpbb-extension",
+  "description": "Add FontAwesome icons into user messages",
+  "homepage": "http://www.phpbb.com",
+  "version": "0.0.1",
+  "time": "2017-08-03",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Konstancius",
+      "homepage": "https://www.phpbbguru.net/community",
+      "role": "User"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.1"
+  },
+  "require-dev": {
+    "phpbb/epv": "dev-master"
+  },
+  "extra": {
+    "display-name": "Add FontAwesome icons",
+    "soft-require": {
+      "phpbb/phpbb": "3.2.*@dev"
+    }
+  }
+}
